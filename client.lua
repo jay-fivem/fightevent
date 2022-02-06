@@ -7,7 +7,7 @@ local zone = PolyZone:Create({
     name="zone",
     minZ = 20.0,
     maxZ = 25.0,
-    debugPoly = true
+    debugPoly = false
 })
 
 zone:onPlayerInOut(function(isPointInside)
